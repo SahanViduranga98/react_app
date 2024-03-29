@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Greet from './components/Greet'
 import Welcome from './components/welcome'
+import Message from './components/Message'
 import React,{ Component } from 'react';
 class App extends Component{
   render(){
@@ -16,6 +17,7 @@ class App extends Component{
       <Welcome name="Symonis" group="our">
       <button>Action2</button>
         </Welcome>
+        <Message Welcome Visitor></Message>
     </div>
   );
 }
